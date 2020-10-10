@@ -1,6 +1,7 @@
 body{
   margin: 0;
-  font-size: 20px;
+  font-family: mulish;
+  max-width: 100%;
 }
 ul{
   margin: 0;
@@ -11,19 +12,56 @@ ul{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 18px;
+  line-height: 23px;
+  margin-top: 20px;
 }
 .nav ul{
   display: flex;
 }
 .nav a{
-  padding: 4px;
+  padding: 20px;
+
 }
 .first_section{
   display: flex;
   align-items: center;
-  margin-right: 163px;
-  margin-left: 190px;
-  margin-top: 84px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+.text h1{
+  font-size: 48px;
+  line-height: 56px;
+}
+.text p{
+  font-size: 21px;
+  line-height: 32px;
+  color: #7d7987;
+}
+button{
+  background-color: #458ff6;
+  color: #ffff;
+  border-radius: 55px;    
+  width: 200px;
+  height: 56px;
+  font-size: 18px;
+  border-color: white;
+  font-weight: bold;
+}
+.heanding{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+}
+.click{
+  color: #458ff6;
+  background-color: #ffff;
+  border-radius: 55px;
+  font-size: 18px;
+  font-weight: bold;
+  border-color: #458ff6;
 }
 .second_section{
   display: flex;
