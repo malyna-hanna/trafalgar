@@ -159,7 +159,7 @@ header nav ul a:hover{
 .third_section{
   display: flex;
   justify-content: space-between;
-  margin: 10px 0;
+  margin-top: 100px;
 }
 .heanding{
   width: 486px;
@@ -191,7 +191,7 @@ header nav ul a:hover{
 .fourth_section{
   display: flex;
   justify-content: space-between;
-  margin: 10px 0;
+  margin-top: 100px;
 }
 .mobile{
   width: 420px;
@@ -220,6 +220,9 @@ header nav ul a:hover{
   color: #458FF6;
   margin-top: 39px;
 }
+.fourth_section span{
+  margin: 5px;
+}
 .icon-Vector-2:before {
   content: "\e904";
   color: #458ff6;
@@ -227,15 +230,19 @@ header nav ul a:hover{
 .fifth_section{
   display: flex;
   justify-content: center;
-  margin: 10px 0;
+  margin-top: 100px;
   flex-direction: column;
+  margin-left: 50px;
 }
 .fifth_section .person p {
   width: 420px;
+  height: 20px;
 }
 .person-info {
   display: flex;
-
+}
+.person-info div{
+  margin: 20px;
 }
 .box{
   width: 1120px;
@@ -244,6 +251,36 @@ header nav ul a:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.box h2{
+  height: 48px;
+  display: flex;
+  font-size: 36px;
+  line-height: 48px;
+  color: #ffff;
+  justify-content: center;
+}
+.name{
+  font-size: 22px;
+  line-height: 48px;
+  color: #ffff;
+}
+.founder{
+  font-size: 18px;
+  line-height: 48px;
+  color: #ffff;
+}
+.person p{
+  font-size: 19px;
+  line-height: 30px;
+  color: #ffff;
+  width: 420px;
+  height: 120px;
+}
+.person-info img{
+  width: 133px;
+  height: 133px;
+  border-radius: 70px;
 }
 .icon-Vector:before {
   content: "\e905";
@@ -255,7 +292,7 @@ header nav ul a:hover{
 }
 .icon-Ellipse-3:before {
   content: "\e900";
-  color: #5b9bf3;
+  color: #b3c2d8;
 }
 .icon-Vector-1:before {
   content: "\e903";
@@ -270,7 +307,7 @@ header nav ul a:hover{
 }
 .sixth_section{
   flex-direction: column;
-  margin: 120px 0 0 0;
+  margin-top: 100px;
   align-items: center;
   display: flex;
 }
@@ -280,24 +317,83 @@ header nav ul a:hover{
   color: #000000;
   display: flex;
   justify-content: center;
-  width: 462px;
   height: 56px;
 }
 .sixth_section .articles{
   display: flex;
   flex-direction: row;
 }
-.articles div {
-  margin: 0 20px;
+.articles a span{
+  margin-left: 10px;
 }
-.sixth_section h5{
+.articles .one{
+  margin: 0 20px;
+  width: 350px;
+  height: 512px;
+  justify-content: center;
+}
+.articles .two{
+  margin: 0 20px;
+  width: 350px;
+  height: 512px;
+}
+.articles.three{
+  margin: 0 20px;
+  width: 350px;
+  height: 512px;
+}
+.articles .one h5{
   justify-content: center;
   font-weight: bold;
   font-size: 21px;
   line-height: 32px;
   color: #000000;
+  width: 251px;
+  height: 64px;
 }
-.sixth_section p{
+.articles .two h5{
+  width: 265px;
+  height: 64px;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 32px;
+  color: #000000;
+}
+.articles .three h5{
+  font-size: 21px;
+  line-height: 32px;
+  color: #000000;
+  width: 245px;
+  height: 64px;
+}
+.articles .one p{
+  width: 266px;
+  height: 84px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7d7987;
+}
+.articles .two p{
+  width: 266px;
+  height: 84px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7d7987;
+}
+.articles .three p{
+  width: 266px;
+  height: 84px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7d7987;
+}
+.more{
+  font-size: 17px;
+  line-height: 28px;
+  color: #4089ED;
+  text-decoration: none;
+}
+.sixth_section .articles p{
   font-weight: 300;
   font-size: 16px;
   line-height: 28px;
@@ -326,10 +422,63 @@ header nav ul a:hover{
   display: flex;
   margin: 50px 0;
 }
-
+.vector{
+  margin: 20px;
+}
+.vector span{
+  margin: 7px;
+}
 .footer{
   display: flex;
 }
 .contact{
   display: flex;
+}
+.icon-Vector-1:before {
+  content: "\e903";
+  color: #458ff6;
+}
+.footer{
+  margin-top: 70px;
+  height: 432px;
+  justify-content: space-between;
+  display: flex;
+  box-sizing: border-box;
+  padding: 90px 80px
+}
+.contact{
+  display: flex;
+}
+footer ul {
+  list-style: none;
+}
+footer ul a {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+footer ul li.head a {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+footer .company-info{
+  width: 391px;
+  height: 201px;
+}
+footer .company-info p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+footer .company-info p span{
+  display: block;
+  margin-top: 22px;
+}
+.foote-bg{
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
 }
